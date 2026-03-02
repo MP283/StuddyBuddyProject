@@ -1,0 +1,42 @@
+.bmList {
+  margin-top: 18px;
+  display: grid;
+  gap: 14px;
+  max-width: 620px;
+}
+
+.bmCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.bmLeft h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+.bmLeft p {
+  margin: 8px 0 0;
+  color: #667085;
+  font-weight: 700;
+}
+
+.bmType {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0f766e;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+}
+
+.removeBtn {
+  background: #ef4444;
+  color: #fff;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}

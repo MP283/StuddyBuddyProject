@@ -1,0 +1,56 @@
+.qpList {
+  margin-top: 18px;
+  display: grid;
+  gap: 14px;
+  max-width: 760px;
+}
+
+.qpCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.qpLeft h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+.qpLeft p {
+  margin: 8px 0 0;
+  color: #667085;
+  font-weight: 700;
+}
+
+.muted {
+  color: #667085;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.qpRight {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.downloadBtn {
+  background: #0f766e;
+  color: #fff;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.bookmarkBtn {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  background: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}

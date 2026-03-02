@@ -1,0 +1,276 @@
+.profilePage {
+  padding-top: 26px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 22px;
+  color: #0f172a;
+  background: linear-gradient(180deg, #bfe9ff, #b7f4e6);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profileName {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 900;
+  letter-spacing: -0.4px;
+}
+
+.roleBadge {
+  background: rgba(17, 163, 150, 0.14);
+  border: 1px solid rgba(17, 163, 150, 0.25);
+  color: #0f766e;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.profileEmail {
+  margin: 8px 0 0;
+  color: #667085;
+  font-weight: 700;
+}
+
+.metaRow {
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.metaPill {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 14px;
+}
+
+.metaLabel {
+  color: #667085;
+  font-weight: 800;
+}
+
+.metaValue {
+  font-weight: 900;
+}
+
+.profileActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnPrimary {
+  background: #0f766e;
+  color: #fff;
+  border: 0;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btnGhost {
+  background: transparent;
+  border: 1px solid rgba(15, 23, 42, 0.16);
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btnDark {
+  background: #0b0b0b;
+  color: #fff;
+  border: 0;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.profileGrid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.cardTitle {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.aboutText {
+  margin: 0;
+  color: #334155;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.aboutList {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.aboutItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #0f766e;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.statBox {
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 16px;
+  padding: 14px 12px;
+  text-align: center;
+  background: #fff;
+}
+
+.statNum {
+  font-size: 26px;
+  font-weight: 900;
+  color: #0f766e;
+}
+
+.statLabel {
+  margin-top: 6px;
+  color: #667085;
+  font-weight: 800;
+}
+
+.statsButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.activityList {
+  display: grid;
+  gap: 10px;
+}
+
+.activityItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: #fff;
+}
+
+.activityTag {
+  min-width: 64px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 12px;
+  font-weight: 900;
+  font-size: 12px;
+  background: rgba(2, 6, 23, 0.06);
+}
+
+.activityMain {
+  font-weight: 900;
+}
+
+.activityTime {
+  margin-top: 2px;
+  color: #667085;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.mutedText {
+  color: #667085;
+  font-weight: 700;
+}
+
+.dangerZone {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.dangerZone h4 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.btnDanger {
+  background: #ef4444;
+  color: #fff;
+  border: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .profileHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profileActions {
+    width: 100%;
+    flex-direction: row;
+  }
+  .profileGrid {
+    grid-template-columns: 1fr;
+  }
+  .statsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
