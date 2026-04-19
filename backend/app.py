@@ -7,9 +7,9 @@ from routes.student import student_bp
 
 def create_app():
     app = Flask(__name__)
-    CORS(app, origins=["http://localhost:5173"])
+    CORS(app)
 
-
+    #, origins=["http://localhost:5173"]
     # Initialize DB with app
     init_db(app)
 
